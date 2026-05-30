@@ -1,0 +1,11 @@
+body { background-color: #1a2a2a; font-family: 'Georgia', serif; display: flex; justify-content: center; padding: 50px; color: #333; }
+.container { background: #fdf6e3; border: 8px solid #c5a059; border-radius: 20px; padding: 40px; width: 850px; text-align: center; box-shadow: 0 0 30px rgba(0,0,0,0.6); position: relative; }
+.gif-title { width: 120px; vertical-align: middle; }
+.gif-loading { width: 250px; margin: 20px auto; }
+.gif-answer { width: 200px; margin: 20px auto; }
+h1 { color: #5d4037; font-size: 2.5em; }
+.upload-section { border: 2px dashed #c5a059; padding: 25px; margin-bottom: 25px; background: rgba(255,255,255,0.4); }
+input[type="text"] { width: 75%; padding: 15px; border: 2px solid #c5a059; border-radius: 8px; margin-bottom: 15px; font-size: 1em; }
+button { background: #1e3a3a; color: #fdf6e3; padding: 15px 30px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 1.1em; margin: 5px; }
+button:hover { background: #2c5555; }
+#output, #answerKey { background: #eee8d5; border: 1px solid #d3af71; padding: 25px; margin-top: 25px; text-align: left; display: none; white-space: pre-wrap; line-height: 1.6; }

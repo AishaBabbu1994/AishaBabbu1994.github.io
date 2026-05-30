@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ADRASTEIA_147 📜</title>
+</head>
+<body>
+<div class="container">
+    <h1><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eHBlN3Q2ODZlaDAwZnNwdHF4N2RpODIyeWJwMG9kaGdkdThvMmExaiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/yaq2xe6xH9kPnMWLtt/giphy.gif" class="gif-title"> ADRASTEIA_147</h1>
+    <p><i>"Invoca el conocimiento de los antiguos textos. Las ninfas te guiarán para ordenar las palabras sagradas."</i></p>
+    <div class="upload-section">
+        <strong>PERGAMINO (.TXT):</strong> <input type="file" id="fileInput" accept=".txt">
+    </div>
+    <div>
+        <input type="text" id="apiKey" placeholder="Llave del Oráculo (gsk_...)">
+        <br>
+        <button id="btnInvocar">⚡ INVOCAR 10 VISIONES</button>
+        <button id="btnVerRespuestas" style="background: #8a6d3b; display: none;">👁️ VER RESPUESTAS</button>
+    </div>
+    <div id="statusGif" style="display:none;"><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eHBlN3Q2ODZlaDAwZnNwdHF4N2RpODIyeWJwMG9kaGdkdThvMmExaiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/6cgUaKdO30l7dpcRrg/giphy.gif" class="gif-loading"></div>
+    <div id="output"></div>
+    <div id="answerKey"><img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cXA3czRvYnFzZjBuNXc4MjRxczI2em1ndWJicmFzdzltM2ZrdW51NSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fglLtsAvBCSAUNKMZJ/giphy.gif" class="gif-answer"><div id="answerContent"></div></div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
